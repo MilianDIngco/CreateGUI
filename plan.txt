@@ -1,0 +1,17 @@
+Goal - When i import this library into a project, I create a GUI object and when it runs a window will pop up. 
+
+Steps
+ 1. Create GUI class
+ 2. create a method that will make the window
+    - needs a JFrame object that will make the window
+ 
+Goal - On the window, a prompt should show up asking the developer details about their GUI.
+Details 
+ - Relative or locked window size?
+   - If its relative, relative or locked window size ratio?
+     - If its locked, whats the ratio?
+   - If its locked, what should the window size be in pixels or ratio or percentage of user screen size? Or in fullscreen mode?
+ - 
+
+Steps
+ 1. 
