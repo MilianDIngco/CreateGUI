@@ -1,17 +1,27 @@
 Goal - When i import this library into a project, I create a GUI object and when it runs a window will pop up. 
+Details
+ 1. There should be a sidebar on the right side of the screen that will hold the menu (described later).
+ 2. The main body of the window will hold a scaled image of what their GUI will look like. 
 
-Steps
- 1. Create GUI class
- 2. create a method that will make the window
-    - needs a JFrame object that will make the window
- 
-Goal - On the window, a prompt should show up asking the developer details about their GUI.
-Details 
- - Relative or locked window size?
-   - If its relative, relative or locked window size ratio?
-     - If its locked, whats the ratio?
-   - If its locked, what should the window size be in pixels or ratio or percentage of user screen size? Or in fullscreen mode?
- - 
+Goal - Menu
+Details
+ 1. Allows dev to set window dimensions (Locked size, unlocked size, locked ratio, unlocked ratio)
+ 2. From here, you should be able to drag and drop components (buttons, bars, sliders, textboxes, pictures). 
+ 3. save button will write information to a file that can be used to load. 
 
-Steps
- 1. 
+Goal - components
+Includes
+ 1. button
+ 2. bar (like a sidebar that holds buttons or a top bar that holds a search box etc.)
+ 3. textboxes (boxes the user can write in)
+ 4. sliders
+ 5. pictures/text
+
+Details
+ 1. The developer should be able to access them from their own code. e.g. add action listeners to individual ones etc.
+ 2. When you click on the components after dragging them to the GUI window, a small option box should pop up in the top right corner. 
+    1. Icon to add text to the component. You should be able to drag the text around inside the component but not outside of it. 
+    2. Option to lock width regardless of window size
+    3. Option to lock height regardless of window size
+    4. Option to lock to x-axis (component coordinate will be defined by the top left corner of the component)
+    5. Option to lock to y-axis
