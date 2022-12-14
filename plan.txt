@@ -1,15 +1,19 @@
-Goal - When i import this library into a project, I create a GUI object and when it runs a window will pop up. 
+Completed!
+0
+
+Goals
+1) Goal - When i import this library into a project, I create a GUI object and when it runs a window will pop up. 
 Details
  1. There should be a sidebar on the right side of the screen that will hold the menu (described later).
  2. The main body of the window will hold a scaled image of what their GUI will look like. 
 
-Goal - Menu
+2) Goal - Menu
 Details
  1. Allows dev to set window dimensions (Locked size, unlocked size, locked ratio, unlocked ratio)
  2. From here, you should be able to drag and drop components (buttons, bars, sliders, textboxes, pictures). 
  3. save button will write information to a file that can be used to load. 
 
-Goal - components
+3) Goal - components
 Includes
  1. button
  2. bar (like a sidebar that holds buttons or a top bar that holds a search box etc.)

@@ -1,5 +1,7 @@
-package CreateGUI.lib;
+package createGUI.lib;
+
 
 public interface Components {
     
 }
+    

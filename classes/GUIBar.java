@@ -1,4 +1,5 @@
-package CreateGUI.lib;
+package createGUI.lib;
+
 
 import javax.swing.JPanel;
 
